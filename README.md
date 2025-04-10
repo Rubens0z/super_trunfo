@@ -1,4 +1,4 @@
-# super_trunfo.Nível Mestre
+# super_trunfo.nívelmestre
 
 
 #include <stdio.h>
