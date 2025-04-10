@@ -1,14 +1,12 @@
 
-# super_trunfo.nívelmestre
 
+#incluir <estúdio.h>
 
-#include <stdio.h>
-
-int main() {
+INT Principal() {
     // Declaração de variáveis para a Carta 1
     char estado1;
-    char codigo1[4];
-    char nomeCidade1[50];
+ Char Codigo1 [4];
+      char nomeCidade1  [50];
     unsigned long int populacao1;
     float area1, pib1;
     int pontosTuristicos1;
@@ -16,21 +14,21 @@ int main() {
 
     // Declaração de variáveis para a Carta 2
     char estado2;
-    char codigo2[4];
-    char nomeCidade2[50];
+ Char Codigo2 [4];
+     char nomeCidade2 [50];
     unsigned long int populacao2;
     float area2, pib2;
     int pontosTuristicos2;
     float densidadePopulacional2, pibPerCapita2, superPoder2;
 
     // Entrada de dados para a Carta 1
-    printf("Insira os dados da Carta 1:\n");
-    printf("Estado (A-H): ");
-    scanf(" %c", &estado1);
-    printf("Codigo da Carta: ");
-    scanf("%s", codigo1);
-    printf("Nome da Cidade: ");
-    scanf(" %49[^\n]", nomeCidade1);
+     Impressão ("Insira os dados da Carta 1:\n");
+     Impressão ("Estado (A-H): ");
+     digitalização ("% C", &estado1);
+     Impressão ("Codigo da Carta: ");
+     digitalização ("%s", codigo1);
+     Impressão ("Nome da Cidade: ");
+     digitalização (" % 49[^\n]", nomeCidade1);
     printf("Populacao: ");
     scanf("%lu", &populacao1);
     printf("Area (em km²): ");
