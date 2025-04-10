@@ -1,5 +1,7 @@
 # super_trunfo
-Nível Mestre
+Nível Mestre#
+
+
 #include <stdio.h>
 
 int main() {
